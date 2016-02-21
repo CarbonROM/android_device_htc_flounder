@@ -35,6 +35,7 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/wifi_only_overlay
 PRODUCT_NAME := carbon_flounder
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 9
+PRODUCT_RESTRICT_VENDOR_FILES := false
 
 # Fix for vendor / system prop mismatch
 PRODUCT_BUILD_PROP_OVERRIDES += \
